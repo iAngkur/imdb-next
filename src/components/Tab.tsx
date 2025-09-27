@@ -6,8 +6,8 @@ export default function Tab() {
 
     return (
         <div aria-label='Tabs' className='p-4 flex flex-row justify-center items-center gap-8'>
-            <TabItem title='Trending' />
-            <TabItem title='Top Rated' />
+            <TabItem title='Trending' param="fetchTrending" />
+            <TabItem title='Top Rated' param="fetchTopRated" />
         </div>
     )
 }
